@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.40cd2d59.css",
-    "main.js": "/portfolio-react/static/js/main.a528fa13.js",
+    "main.css": "/portfolio-react/static/css/main.418ad732.css",
+    "main.js": "/portfolio-react/static/js/main.a32a12eb.js",
     "static/media/ictgm.png": "/portfolio-react/static/media/ictgm.1842e24127aba597323f.png",
     "static/media/heroImage.png": "/portfolio-react/static/media/heroImage.90d84f09018677144bd0.png",
     "static/media/nodeImage.png": "/portfolio-react/static/media/nodeImage.290f630040630c5948b6.png",
@@ -16,11 +16,11 @@
     "static/media/gfg.png": "/portfolio-react/static/media/gfg.1d2f1efed93e55ffa7c7.png",
     "static/media/javascript.png": "/portfolio-react/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio-react/index.html",
-    "main.40cd2d59.css.map": "/portfolio-react/static/css/main.40cd2d59.css.map",
-    "main.a528fa13.js.map": "/portfolio-react/static/js/main.a528fa13.js.map"
+    "main.418ad732.css.map": "/portfolio-react/static/css/main.418ad732.css.map",
+    "main.a32a12eb.js.map": "/portfolio-react/static/js/main.a32a12eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.40cd2d59.css",
-    "static/js/main.a528fa13.js"
+    "static/css/main.418ad732.css",
+    "static/js/main.a32a12eb.js"
   ]
 }
