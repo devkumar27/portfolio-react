@@ -11,7 +11,7 @@ const Home = () => {
                    <center>Hello from, Dev Kumar!</center>
                 </h1>
                 <h2 className='text-4xl sm:text-7xl font-bold text-white'>
-                    I'm a MERN Stack Web Developer and Competetive Programmer
+                    I'm a MERN Stack Developer and Competetive Programmer
                 </h2>
                 <h3 className='text-gray-500 py-4 max-w-md font-bold'>
                 I am a Final Year Computer Science student at Vellore Institute of Technology, Bhopal. I'm an extremely Passionate learner of new technology with interest in Javascript, Java and problem solving.

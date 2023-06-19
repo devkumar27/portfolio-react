@@ -3,7 +3,6 @@ import Navbar from "./components/Navbar";
 import SocialLinks from "./components/SocialLinks";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import Contact from "./components/Contact";
 import Coding from "./components/Coding";
 
 
@@ -17,7 +16,6 @@ function App() {
       <Skills/>
       <coding_profile/>
       <Coding/>
-      <Contact/>
       <SocialLinks/>
     </div>
   );

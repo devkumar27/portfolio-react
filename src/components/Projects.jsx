@@ -3,13 +3,13 @@ import ictgm from '../assets/portfolio/ictgm.png';
 import shopcric from '../assets/portfolio/shopcric.png';
 import stopwatch from '../assets/portfolio/stopwatch.png';
 
-
 function portfolio() {
 
   const projects=[
     {
       id: 1,
       src: shopcric,
+      name: 'ShopCric - A Cricket e-Commerce Website',
       style: 'shadow-green-500',
       code: 'https://github.com/devkumar27/ecommerce-cricket-shop-webdesign',
       demo: 'https://shopcric.netlify.app'
@@ -17,15 +17,17 @@ function portfolio() {
     },
     {
         id: 2,
+        name: 'ICT Greatest Wins',
         src: ictgm,
         style: 'shadow-blue-500',
-        code:'https://github.com/ict-photo-gallery',
+        code:'https://github.com/devkumar27/ict-photo-gallery',
         demo: 'https://devkumar27.github.io/ict-photo-gallery/'
     },
     {
       id: 3,
+      name: 'Stopwatch',
       src: stopwatch,
-      style: 'shadow-blue-500',
+      style: 'shadow-green-500',
       code:'https://github.com/devkumar27/stopwatch-js',
       demo: 'https://devkumar27.github.io/stopwatch-js/'
     }
@@ -39,13 +41,14 @@ function portfolio() {
       </div>
       <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 pb-9'>
       {
-        projects.map(({id,src,style,demo,code})=>(
+        projects.map(({id,name,src,style,demo,code})=>(
         <div key={id} className={`duration-300 hover:scale-105 shadow-md  rounded-lg ${style}`}>
           <img src={src} alt="" className='rounded-md duration-200 hover:scale-105'/>
           <div className='flex items-center justify-center'>
             <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'><a href={demo} >Demo</a></button>
             <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'><a href={code} >Code</a></button>
           </div>
+          <h2 className='flex items-center justify-center font-bold'>{name}</h2>
         </div>
         ))
       }
