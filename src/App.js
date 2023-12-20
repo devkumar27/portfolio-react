@@ -4,6 +4,8 @@ import SocialLinks from "./components/SocialLinks";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Coding from "./components/Coding";
+import Education from "./components/Education";
+import Experience from "./components/Experience";
 
 
 function App() {
@@ -12,10 +14,12 @@ function App() {
       <Navbar/>
       <Home/>
       <SocialLinks/>
-      <Projects/>
+      <Education />
       <Skills/>
+      <Projects/>
       <coding_profile/>
       <Coding/>
+      <Experience />
       <SocialLinks/>
     </div>
   );

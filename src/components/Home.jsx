@@ -11,7 +11,7 @@ const Home = () => {
                    <center>Hello from, Dev Kumar!</center>
                 </h1>
                 <h2 className='text-4xl sm:text-7xl font-bold text-white'>
-                    I'm a MERN Stack Developer and Competetive Programmer
+                    I'm a Web Developer and Competetive Programmer
                 </h2>
                 <h3 className='text-gray-500 py-4 max-w-md font-bold'>
                 I am a Final Year Computer Science student at Vellore Institute of Technology, Bhopal. I'm an extremely Passionate learner of new technology with interest in Javascript, Java and problem solving.
@@ -20,7 +20,7 @@ const Home = () => {
                 </h3>
                 <div>
                     <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-purple-500 cursor-pointer' >
-                        Portfolio
+                        <a href='https://docs.google.com/document/d/1ru1rILDP5bYFxa5jVvlbfkhJe4uA0V9o/edit?usp=sharing&ouid=101390188371137591602&rtpof=true&sd=true' target='_blank'>Resume</a>
                         <span className='group-hover:rotate-90 duration-300'>
                         <MdKeyboardArrowRight size={25} className="ml-1"/>
                         </span>
@@ -30,7 +30,7 @@ const Home = () => {
             <div>
                 <br/>
                 <br/>
-                <img src={heroImage} alt="My profile" className='rounded-2xl mx-auto w-2/3 md:w-full'/>
+                <img src={heroImage} alt="My profile" className='heroImg rounded-2xl mx-auto w-2/3 md:w-full'/>
             </div>
         </div>
     </div>

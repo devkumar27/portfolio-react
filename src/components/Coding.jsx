@@ -9,13 +9,13 @@ function Coding() {
         {
             id:1,
             src: leetcode,
-            title: 'LeetCode : 140+ Questions Solved',
+            title: 'LeetCode : 350+ Questions Solved',
             link: 'https://leetcode.com/devkr'
         },
         {
             id:2,
             src: gfg,
-            title: 'GeeksForGeeks : 30+ Questions Solved',
+            title: 'GeeksForGeeks : 50+ Questions Solved',
             link: 'https://auth.geeksforgeeks.org/user/devkr/practice/'
         },
         {
@@ -26,7 +26,7 @@ function Coding() {
         }
     ]
   return (
-    <div name='coding' className='bg-gradient-to-b from-gray-800 to to-black w-full h-screen'>
+    <div name='coding' className='bg-gradient-to-b from-black to to-gray-800 w-full h-screen'>
          <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
             <div>
                 <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 sm:py-1 inline'>
